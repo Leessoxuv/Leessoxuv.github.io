@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="304dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="날씨와 옷차림"
+        android:textColor="@color/black"
+        android:textSize="50dp"></TextView>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="아래의 버튼을 선택하세요"
+        android:textColor="@color/black"
+        android:textSize="30dp"></TextView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="226dp"
+        android:layout_height="168dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/cloudy"></Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="234dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/clothes"></Button>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="235dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/girl"></Button>
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Iv1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/girl"></ImageView>
+
+        <LinearLayout
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오늘의 체감 온도는 몇 도인가요?"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <EditText
+                android:id="@+id/ET1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="온도를 입력하세요"></EditText>
+
+            <Button
+                android:id="@+id/BT1"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="확인" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="427dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
